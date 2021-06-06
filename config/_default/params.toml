@@ -36,7 +36,7 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+footer = "Hosted by <a href=\"https://twitter.com/jpiraguha/\">JP</a>, join us on <a href=\"https://www.meetup.com/brussels-kotlin-user-group/\">Meetup</a>"
 
 # Alert
 alert = false

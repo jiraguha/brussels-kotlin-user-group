@@ -29,7 +29,6 @@ h6,
     font-size: $font-size-md;
     padding-top: 4rem !important;
   }
-
   h1,
   h2,
   h3,
@@ -84,7 +83,6 @@ a.btn:focus {
   vertical-align: text-top;
 }
 */
-
 body {
   padding-top: 3.5625rem;
 }
@@ -98,7 +96,6 @@ body {
     order: 0;
     border-right: 1px solid $gray-200;
   }
-
   @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-sidebar {
       position: -webkit-sticky;
@@ -172,7 +169,6 @@ body {
   .docs-navigation {
     margin-bottom: -1rem;
   }
-
   .docs-navigation a {
     font-size: $font-size-base;
   }
@@ -226,4 +222,16 @@ body {
 
 .katex {
   font-size: $font-size-md;
+}
+
+.centered-container {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+
+.centered-container > .child-container {
+  display: table-cell;
+  vertical-align: middle;
 }

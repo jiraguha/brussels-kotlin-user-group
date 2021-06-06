@@ -6,34 +6,39 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | relURL }}" role="button">Join Us</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .Params.link }}" role="button">Join Us</a>
     </div>
   </div>
 </section>
 {{ end }}
-
 {{ define "sidebar-prefooter" }}
+{{ if .Params.hasEvent }}
 <h2 class="h2 justify-content-center text-center">Next Talk</h2>
 <section class="section section-sm">
   <div class="container">
-
     <div class="row justify-content-center text-center">
-
-      <div class="col-lg-6">
-        <h2 class="h4">Reactive programming</h2>
-        <h2 class="h6">with Charlie Gerard</h2>
+      September 11, 2020
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-6" style="padding-bottom: 12px; padding-right: unset;">
+        <h2 class="h4">{{ .Params.nextTalkTitle | safeHTML }}</h2>
+        <h2 class="h6">with {{ .Params.speakerName | safeHTML }}</h2>
+        <a href="{{ .Params.speakerTwitter }}" target="_blank"><span class="fab fa-twitter"></span></a>
+        <a href="{{ .Params.speakerGithub }}" target="_blank"><span
+            class="fab fa-github"></span></a>
       </div>
-      <div class="col-lg-6">
-<!--        <h2 class="h6"></h2>-->
-        <img class="justify-content-end" style="height: 150px; border-radius: 12px; border-color: #005cc5;" src="//s3-eu-central-1.amazonaws.com/static-dotconferences-com/speakers_images/charlie-gerard.png" alt="Charlie Gerard">
+      <div class="col-lg-6" style="width: 151px; padding: unset;">
+        <h2 class="h6"></h2>
+        <a href="{{ .Params.speakerTwitter }}" target="_blank">
+          <img style="height: 150px; border-radius: 12px; border-color: #005cc5;"
+               src="{{ .Params.speakerPhoto }}" alt="Charlie Gerard">
+        </a>
       </div>
-
-
     </div>
   </div>
 </section>
 {{ end }}
-
+{{ end }}
 {{ define "sidebar-footer" }}
 <section class="section section-sm container-fluid">
   <div class="row justify-content-center text-center">
