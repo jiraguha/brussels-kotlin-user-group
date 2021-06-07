@@ -29,6 +29,7 @@ h6,
     font-size: $font-size-md;
     padding-top: 4rem !important;
   }
+
   h1,
   h2,
   h3,
@@ -96,6 +97,7 @@ body {
     order: 0;
     border-right: 1px solid $gray-200;
   }
+
   @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-sidebar {
       position: -webkit-sticky;
@@ -169,6 +171,7 @@ body {
   .docs-navigation {
     margin-bottom: -1rem;
   }
+
   .docs-navigation a {
     font-size: $font-size-base;
   }
