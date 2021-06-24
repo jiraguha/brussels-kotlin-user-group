@@ -23,7 +23,7 @@ I am Jean-Paul Iraguha Tech Lead [@Upy](https://www.linkedin.com/company/upy-app
 
 
 
-{{< alert icon="👆🏾" text="For any issues related to BKUG or anything, I am always ready to help! Contact or ask me anything on twitter!"  >}}
+{{< alert icon="👆🏾" text="For any issues related to BruKUG or anything, I am always ready to help! Contact or ask me anything on twitter!"  >}}
 
 
 

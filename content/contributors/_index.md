@@ -1,10 +1,10 @@
 ---
 title: "Contributors"
-description: "The BKUG contributors."
+description: "The BruKUG contributors."
 date: 2020-10-06T08:50:29+00:00
 lastmod: 2020-10-06T08:50:29+00:00
 draft: false
 images: []
 ---
 
-The BKUG contributors.
+The BruKUG contributors.
